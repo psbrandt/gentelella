@@ -1,0 +1,1 @@
+cmd: rsync -avz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress -r mason root@178.62.186.49:/usr/share/nginx/
